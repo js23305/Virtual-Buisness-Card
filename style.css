@@ -1,0 +1,113 @@
+/*General Reset*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../Images/rose.png') no-repeat center center fixed;
+    background-repeat: repeat;  /* Ensures the image repeats */
+    /*background-size: 50px 50px; /* Scales the rose image to be smaller */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/*Card Styling*/
+.card {
+    background: linear-gradient(145deg,  #FFB6C1, #FFF0F5);
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 6px rgba(0, 0, 0, 0.1);;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+/* Header Styling */
+header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  header p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+
+  }
+
+/* Body Styling */
+main p {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #444;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #14a1e2;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  ul li a:hover {
+    color: #6aef11;
+  }
+  
+  /* Footer Styling */
+  footer button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  footer button:hover {
+    background-color: #0056a8;
+  }
+
+  /* Responsive Styling */
+@media (max-width: 600px) {
+    /* Adjust the card width on small screens */
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    main p {
+        font-size: 14px;
+    }
+
+    footer button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
