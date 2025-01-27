@@ -4,11 +4,11 @@ body {
     font-family: Arial, sans-serif;
     background: url('./Images/rose.png') no-repeat center center fixed;
     background-repeat: repeat;  /* Ensures the image repeats */
-    /*background-size: 50px 50px; /* Scales the rose image to be smaller */
+    /*background-size: 100px; /* Scales the rose image to be smaller */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     color: #333;
 }
 
